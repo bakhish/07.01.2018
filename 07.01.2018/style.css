@@ -1,0 +1,177 @@
+body{
+    margin:0;
+
+}
+.clear{
+    clear: both;
+}
+.navbar{
+    background-color: black;
+    padding: 0  100px;
+    height:40px;
+    padding-top:10px;
+}
+.navbar .nav{
+    width:49%;
+    display:inline-block;
+
+}
+
+.navbar .nav ul{
+    margin:0;
+    padding:0;
+
+}
+.container{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.navbar .nav li{
+    list-style: none;
+    display:inline-block;
+
+}
+.navbar .nav ul li a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px;
+
+}
+.navbar .login{
+    width:49%;
+    display:inline-block;
+    text-align: right;
+}
+
+.navbar .login ul{
+    margin:0;
+    padding:0;
+
+}
+.navbar .login ul li{
+    list-style: none;
+    display:inline-block;
+}
+
+
+.navbar .login ul li a{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+}
+.navbar .login ul li .input{
+    padding:5px 10px;
+    background: gray;
+    border-radius:10px;
+
+}
+.brandRow{
+padding: 0 100px;
+
+}
+.brandRow .brand{
+    display:inline-block;
+    width:49%;
+
+}
+.brandRow .ads{
+    display:inline-block;
+    width:49%;
+    border:3px solid black;
+    height:50px;
+    background:gray;
+    margin-top: 10px ;
+   
+}
+#sign{
+    padding-right: 10px; 
+}
+.topMenu{
+    width:98.5%;
+    background:gray;
+
+}
+.topMenu .menu{
+float:left;
+}
+.topMenu .menu ul{
+    margin:0;
+    padding:0;
+
+}
+.topMenu .menu ul li{
+    display:inline-block;
+
+
+}
+.topMenu .menu ul li a{
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    padding:10px 15px;
+    border-left:1px solid black;
+
+    }
+    .search{
+        width:200px;
+        height:25px;
+        border-radius: 5px;
+        background:lightgray;
+        float:right;
+        margin-right: 10px;
+        margin-top: 7px;
+        padding-left: 5px;
+
+    }
+    .content{
+        width:100%;
+        margin-top:20px;
+
+    }
+    .mainContent{
+        width:calc(70% - 20px);
+        float:left;
+        height:500px;
+        background:gray;
+        margin-right:20px;
+
+    }
+    .sideBar{
+        width:30%;
+        float:right;
+        height:500px;
+        background:gray;
+
+    }
+    .content{
+        
+    }
+    .slider{
+        height:250px;
+        background:gray;
+    }
+    .latest{
+        margin-top: 20px;
+
+    }
+    .row{
+
+    }
+    .coloumn{
+        height:150px;
+        width:calc(33.33% - 20px);
+        margin:10px;
+        background: gray;
+        float:left;
+
+    }
+    .sideBar{
+        width:30%;
+        float:right;
+
+    }
+    .winter{
+
+    }
